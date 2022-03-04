@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Coin flipper</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/main.css"
+    />
+    <link
+      rel="icon"
+      href="./assets/images/favicon.png"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+      <h1 class="header__title">Coin flipper</h1>
+      </header>
+
+      <main class="main">
+        <section class="heads">
+          <h2 class="heads__title">Heads</h2>
+          <p
+            class="heads__text js-heads-result"
+          >
+            0
+          </p>
+        </section>
+        <section class="tails">
+          <h2 class="tails__title">Tails</h2>
+          <p
+            class="tails__text js-tails-result"
+          >
+            0
+          </p>
+        </section>
+        <section class="results">
+          <h3
+            class="results__text js-result-text"
+          ></h3>
+          <input
+            class="btn flip-btn js-flip-btn"
+            type="button"
+            value="Flip Coin"
+          />
+          <input
+            class="btn reset-btn js-reset-btn"
+            type="reset"
+            value="Reset"
+          />
+        </section>
+      </main>
+
+      <footer class="footer">
+        <small class="footer__copy">
+          &copy; <a class="footer__link" href="https://github.com/Okia02">Ana Jimenez</a> 
+        </small>
+      </footer>
+
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -45,3 +45,5 @@ function reset() {
   tailsCount.innerHTML = 0;
   textResult.innerHTML = "";
 }
+
+//# sourceMappingURL=main.js.map
