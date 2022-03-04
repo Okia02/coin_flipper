@@ -1,5 +1,12 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+  width: 100%;
+  background-color: #000;
+  &__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: $color-main;
+    font-size: 40px;
+    text-align: center;
+    margin: 10% 0;
+  }
 }

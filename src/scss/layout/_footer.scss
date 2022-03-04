@@ -1,8 +1,15 @@
-.page__footer {
+.footer {
   position: fixed;
-  left: 0;
   bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+  color: $color-main;
+  text-align: center;
+  font-size: 15px;
+  padding: 5%;
+  border-top: solid 3px $color-secondary;
+  width: 100%;
+  &__link {
+    text-decoration: none;
+    color: $color-secondary;
+    cursor: pointer;
+  }
 }
