@@ -1,7 +1,7 @@
 ## Coin flipper game
  * #JavaScript project
 
- <img alt="app demo picture" src="./images/coin-flipper-mobile.png"/>
+ <img alt="app demo picture" src="./assets/images/coin-flipper-mobile.png"/>
 
 
 - App built on **node & gulp**
