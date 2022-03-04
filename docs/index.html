@@ -2,62 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
     <title>Coin flipper</title>
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/main.css"
+    />
+    <link
+      rel="icon"
+      href="./assets/images/favicon.png"
+    />
   </head>
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+      <header class="header">
+        <h1 class="header__title">
+          Coin flipper
+        </h1>
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
+      <main class="main">
+        <section class="results">
+          <input
+            class="btn flip-btn js-flip-btn"
+            type="button"
+            value="Flip Coin"
+          />
+          <input
+            class="btn reset-btn js-reset-btn"
+            type="reset"
+            value="Reset"
+          />
+          <h3
+            class="results__text js-result-text"
+          ></h3>
+        </section>
+        <section class="section">
+          <h2 class="section__title">
+            Heads
+          </h2>
+          <p
+            class="section__text js-heads-result"
+          >
+            0
+          </p>
+        </section>
+        <section class="section">
+          <h2 class="section__title">
+            Tails
+          </h2>
+          <p
+            class="section__text js-tails-result"
+          >
+            0
+          </p>
+        </section>
       </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
+      <footer class="footer">
+        <small class="footer__copy">
+          &copy;
+          <a
+            class="footer__link"
+            href="https://github.com/Okia02"
+            >Ana Jimenez</a
+          >
         </small>
       </footer>
 
