@@ -41,7 +41,5 @@ document
   .addEventListener("click", reset);
 
 function reset() {
-  headsCount.innerHTML = 0;
-  tailsCount.innerHTML = 0;
-  textResult.innerHTML = "";
+  location.reload();
 }
