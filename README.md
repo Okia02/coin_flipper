@@ -1,6 +1,6 @@
 ## Coin flipper game
  > #JavaScript project
-<img source="https://github.com/Okia02/coin_flipper/blob/main/src/images/coin-flipper-mobile.png"/>
+<img src="https://github.com/Okia02/coin_flipper/blob/main/src/images/coin-flipper-mobile.png"/>
 
 - App built on **node & gulp**
 - You'll need [Node JS](https://nodejs.org/):
