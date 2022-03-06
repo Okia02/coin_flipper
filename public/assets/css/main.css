@@ -108,6 +108,13 @@ body {
   margin: 15%;
   border-radius: 25px;
   padding: 7%; }
+  @media (min-width: 720px) {
+    .main {
+      margin: 5% 15% 5%; } }
+  @media (min-width: 1200px) {
+    .main {
+      margin: 3% 35% 5%;
+      padding: 3%; } }
   .main .results {
     display: flex;
     flex-direction: column;
@@ -120,19 +127,38 @@ body {
       background-color: #fff;
       cursor: pointer;
       margin-bottom: 3%; }
+      @media (min-width: 1200px) {
+        .main .results .btn {
+          margin-bottom: 2%; } }
     .main .results .flip-btn {
       width: 70%;
       font-size: 20px;
       color: #db0f9e; }
+      @media (min-width: 1200px) {
+        .main .results .flip-btn {
+          width: 50%;
+          font-size: 30px; } }
     .main .results .reset-btn {
       color: #e6d330;
       width: 40%;
       font-size: 15px; }
+      @media (min-width: 1200px) {
+        .main .results .reset-btn {
+          width: 25%;
+          font-size: 20px; } }
     .main .results__text {
       text-align: center;
       font-weight: 600;
       font-size: 20px;
       margin: 5% 0; }
+      @media (min-width: 720px) {
+        .main .results__text {
+          margin: 3%;
+          font-size: 30px; } }
+      @media (min-width: 1200px) {
+        .main .results__text {
+          margin: 2%;
+          font-size: 30px; } }
   .main .section {
     display: flex;
     flex-direction: column;
@@ -142,6 +168,9 @@ body {
     border-radius: 25px;
     padding: 5%;
     background-color: #fff; }
+    @media (min-width: 720px) {
+      .main .section {
+        margin: 3%; } }
     .main .section__title {
       color: #db0f9e;
       text-transform: uppercase;
@@ -163,6 +192,14 @@ body {
     font-size: 40px;
     text-align: center;
     margin: 10% 0; }
+    @media (min-width: 720px) {
+      .header__title {
+        margin: 5% 0;
+        font-size: 70px; } }
+    @media (min-width: 1200px) {
+      .header__title {
+        margin: 3% 0;
+        font-size: 80px; } }
 
 .footer {
   position: fixed;
@@ -173,6 +210,14 @@ body {
   padding: 5%;
   border-top: solid 3px #db0f9e;
   width: 100%; }
+  @media (min-width: 720px) {
+    .footer {
+      font-size: 25px;
+      padding: 3%; } }
+  @media (min-width: 1200px) {
+    .footer {
+      font-size: 35px;
+      padding: 1%; } }
   .footer__link {
     text-decoration: none;
     color: #db0f9e;

@@ -23,12 +23,12 @@ function flipCoin() {
     headsScore++;
     headsCount.innerHTML = headsScore;
     textResult.innerHTML =
-      "The coin has landed on HEADS";
+      "The coin has landed on HEADS!";
   } else {
     tailsScore++;
     tailsCount.innerHTML = tailsScore;
     textResult.innerHTML =
-      "The coin has landed on TAILS";
+      "The coin has landed on TAILS!";
   }
 }
 

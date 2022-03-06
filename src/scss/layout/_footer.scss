@@ -7,6 +7,14 @@
   padding: 5%;
   border-top: solid 3px $color-secondary;
   width: 100%;
+  @media (min-width: 720px) {
+    font-size: 25px;
+    padding: 3%;
+  }
+  @media (min-width: 1200px) {
+    font-size: 35px;
+    padding: 1%;
+  }
   &__link {
     text-decoration: none;
     color: $color-secondary;
